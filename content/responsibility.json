@@ -1,0 +1,39 @@
+{
+  "hero": {
+    "label": "Responsibility",
+    "headline": "Purpose-Driven Science for a Better World",
+    "subtitle": "At our foundation, we draw on the intelligence of natural systems to power solutions that serve both people and the planet."
+  },
+  "journey": {
+    "heading": "Our Path Forward",
+    "text": "We are driven by conviction, guided by deep expertise, and united by the belief that meaningful progress is within reach. As pioneers at the intersection of biology and industry, we chart a course toward a future where sustainable innovation isn't aspirational — it's standard.",
+    "quote": "We see the road ahead clearly, and we're building the tools to get there."
+  },
+  "values": {
+    "heading": "What Defines Us",
+    "subtitle": "We are a multidisciplinary team bound by shared principles that shape every decision we make.",
+    "items": [
+      {
+        "title": "Curious",
+        "description": "We are scientists at heart — endlessly exploring, questioning, and pushing into new territory. This relentless curiosity fuels the kind of radical innovation that doesn't just advance boundaries but reimagines them entirely."
+      },
+      {
+        "title": "Responsible",
+        "description": "We embrace bold exploration with a deep sense of accountability. The planet needs organizations willing to confront urgent challenges head-on, and our specialized expertise positions us to lead entire industries toward a more responsible future."
+      },
+      {
+        "title": "Driven",
+        "description": "We know where we're headed and we have the resolve to get there. Our determination keeps us moving forward through complexity and uncertainty, always focused on the transformative impact that lies ahead."
+      }
+    ]
+  },
+  "impact": {
+    "heading": "The Change We're Making",
+    "text": "Our purpose is rooted in a profound respect for the natural world. We believe that nature — in all its complexity and beauty — deserves to be understood, protected, and preserved for future generations. Our initial focus targets industries with outsized environmental footprints, where bio-based alternatives can deliver the most immediate and meaningful change.",
+    "stats": [
+      { "value": "92%", "label": "Lower carbon footprint vs. synthetic alternatives" },
+      { "value": "Zero", "label": "Hazardous chemicals in our processes" },
+      { "value": "100%", "label": "Renewable feedstock inputs" }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "companyName": "Helinx",
+  "tagline": "Reimagining biology for a regenerative future",
+  "nav": [
+    { "label": "Technology", "href": "/technology" },
+    { "label": "Responsibility", "href": "/responsibility" },
+    { "label": "Company", "href": "/company" },
+    { "label": "Contact", "href": "/contact" }
+  ],
+  "footer": {
+    "address": ["123 Innovation Drive", "Suite 400", "Cambridge, MA 02139"],
+    "socials": [
+      { "label": "LinkedIn", "href": "https://linkedin.com" },
+      { "label": "Twitter", "href": "https://twitter.com" }
+    ],
+    "copyright": "Helinx"
+  }
+}

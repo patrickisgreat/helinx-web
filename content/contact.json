@@ -1,0 +1,35 @@
+{
+  "hero": {
+    "label": "Contact",
+    "headline": "Let's Build Something Together",
+    "subtitle": "We partner with forward-thinking organizations to bring bio-based solutions to market. Whether you have a question, a proposal, or simply want to learn more — we'd love to hear from you."
+  },
+  "form": {
+    "heading": "Send Us a Message",
+    "fields": [
+      { "name": "name", "label": "Full Name", "type": "text", "placeholder": "Your name" },
+      { "name": "email", "label": "Email Address", "type": "email", "placeholder": "you@company.com" },
+      { "name": "company", "label": "Company", "type": "text", "placeholder": "Your organization" },
+      { "name": "message", "label": "Message", "type": "textarea", "placeholder": "Tell us about your project or inquiry..." }
+    ],
+    "submitLabel": "Send Message"
+  },
+  "info": {
+    "heading": "Other Ways to Reach Us",
+    "email": "hello@helinx.com",
+    "items": [
+      {
+        "title": "General Inquiries",
+        "description": "For questions about Helinx, our technology, or partnership opportunities."
+      },
+      {
+        "title": "Commercial Partnerships",
+        "description": "Interested in integrating our bio-based solutions into your supply chain? Let's talk."
+      },
+      {
+        "title": "Careers",
+        "description": "We're always looking for exceptional scientists, engineers, and business leaders to join our team."
+      }
+    ]
+  }
+}

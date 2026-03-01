@@ -1,0 +1,34 @@
+{
+  "hero": {
+    "label": "Our Technology",
+    "headline": "Unlocking Nature's Potential to Redefine Industry",
+    "subtitle": "In a world built on synthetic chemistry, we look to biology for a smarter path forward. Our platforms harness the precision and efficiency of living systems to produce sustainable ingredients that outperform their conventional counterparts."
+  },
+  "intro": {
+    "heading": "The Imperative for Change",
+    "text": "For decades, industrial chemistry has delivered remarkable innovation — but at a steep environmental cost. By studying nature's own molecular machinery and channeling its extraordinary capabilities, we unlock new possibilities for producing high-value ingredients sustainably. This is the foundation of everything we do at Helinx."
+  },
+  "platforms": {
+    "heading": "Our Core Platforms",
+    "description": "Two interconnected technologies form the backbone of our scientific capability: cell factory engineering with precision fermentation, and enzymatic enhancement. Together, they enable us to bring natural ingredients to market at a scale previously unattainable.",
+    "items": [
+      {
+        "label": "Cell Factory Engineering",
+        "title": "Cell Factory Engineering & Precision Fermentation",
+        "description": "We design and optimize microbial cell factories capable of producing a broad spectrum of bio-based ingredients through precision fermentation. From textile colorants to nutraceuticals and specialty chemicals, our engineered organisms convert renewable feedstocks into high-purity products with dramatically lower environmental impact.",
+        "details": "Our modular workflow means breakthroughs in one area accelerate progress across our entire pipeline. And because fermentation is a well-established, globally scalable process, our innovations integrate seamlessly into existing manufacturing and supply chain infrastructure."
+      },
+      {
+        "label": "Enzymatic Enhancement",
+        "title": "Advanced Enzyme Technology",
+        "description": "Nature provides extraordinary molecules — but sometimes they need refinement to meet commercial requirements. Our proprietary enzyme technology precisely modifies natural ingredients to enhance solubility, stability, and bioavailability, creating products with superior performance characteristics.",
+        "details": "Starting from extensive enzyme library screening, through tailored bioprocessing, to rigorous property validation — our workflow delivers enhanced ingredients that unlock new applications and markets for bio-based products."
+      }
+    ]
+  },
+  "impact": {
+    "heading": "Where This Leads",
+    "text": "Our technology exists to serve a purpose larger than innovation for its own sake. Every platform we develop, every process we optimize, is guided by our commitment to replacing harmful industrial practices with regenerative, nature-inspired alternatives.",
+    "cta": { "label": "See Our Responsibility", "href": "/responsibility" }
+  }
+}
