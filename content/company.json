@@ -16,24 +16,19 @@
     "subtitle": "Our leadership combines deep scientific expertise with proven commercial track records.",
     "members": [
       {
-        "name": "Dr. Sarah Chen",
+        "name": "Dr. James Johansen",
         "title": "CEO & Co-Founder",
         "bio": "A world-recognized biochemist specializing in bioengineering microorganisms for high-value molecule production. Previously led multidisciplinary research programs at a leading university, successfully transitioning bio-based innovations from lab to commercialization. Awarded multiple honors for exceptional achievement in research translation and industry collaboration."
       },
       {
-        "name": "Dr. James Andersen",
-        "title": "CSO & Co-Founder",
-        "bio": "A highly experienced metabolic engineer and fermentation scientist with a proven track record developing innovative bio-based manufacturing methods. With expertise spanning biofuels, bioplastics, nutraceuticals, and pharmaceuticals, James has successfully guided projects from initial proof-of-concept through to commercial-scale production."
-      },
-      {
-        "name": "Maria Kowalski",
+        "name": "Maria Satiya",
         "title": "Chief Financial Officer",
         "bio": "An experienced executive finance professional with deep roots in the biotech sector. Maria brings years of CFO-level experience across multiple biotech companies, complemented by senior roles in investment banking and capital markets operations."
       },
       {
-        "name": "David Moreau",
-        "title": "Chief Business Officer",
-        "bio": "A recognized biotech executive with over 20 years of management-level industry experience spanning sales, marketing, general management, and strategic partnerships. David has a proven record of driving multiple revenue generation initiatives from concept to execution."
+        "name": "Patrick Bennett",
+        "title": "Co Founder",
+        "bio": "A recognized biotech engineer specializing in automation and machine learning"
       }
     ]
   },
@@ -42,17 +37,17 @@
     "subtitle": "Experienced leaders from across the biotech and investment landscape guide our strategic direction.",
     "members": [
       {
-        "name": "Dr. Erik Lindström",
+        "name": "Dr. Eric Lunderman",
         "title": "Chairman of the Board",
         "bio": "A founding partner of a leading Nordic life science venture fund with extensive experience in early-stage company creation, having led the formation and funding of over 20 companies across Europe."
       },
       {
-        "name": "Anna Bergström",
+        "name": "Anna Baxter",
         "title": "Independent Board Member",
         "bio": "An international legal expert with 20 years of experience in the life science industry, specializing in R&D agreements, strategic licensing transactions, and complex research collaborations."
       },
       {
-        "name": "Lucas Martin",
+        "name": "Michael Hendricks",
         "title": "Investor Representative",
         "bio": "A seasoned venture capitalist with deep experience in cleantech and deeptech investing, having completed over 40 transactions and successfully developed early-stage businesses into thriving companies."
       }
