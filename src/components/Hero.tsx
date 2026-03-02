@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 interface HeroProps {
@@ -6,16 +7,24 @@ interface HeroProps {
   subtitle: string;
   cta?: { label: string; href: string };
   large?: boolean;
+  image?: string;
 }
 
-export default function Hero({ label, headline, subtitle, cta, large }: HeroProps) {
+export default function Hero({ label, headline, subtitle, cta, large, image }: HeroProps) {
   return (
     <section className="relative overflow-hidden bg-gradient-to-br from-primary-950 via-primary-900 to-accent-900">
-      {/* Decorative elements */}
-      <div className="absolute inset-0">
-        <div className="absolute top-1/4 -left-20 w-96 h-96 bg-accent-500/10 rounded-full blur-3xl" />
-        <div className="absolute bottom-1/4 -right-20 w-96 h-96 bg-primary-500/10 rounded-full blur-3xl" />
-      </div>
+      {/* Background image or decorative elements */}
+      {image ? (
+        <div className="absolute inset-0">
+          <Image src={image} alt="" fill className="object-cover opacity-30" priority sizes="100vw" />
+          <div className="absolute inset-0 bg-gradient-to-br from-primary-950/80 via-primary-900/70 to-accent-900/80" />
+        </div>
+      ) : (
+        <div className="absolute inset-0">
+          <div className="absolute top-1/4 -left-20 w-96 h-96 bg-accent-500/10 rounded-full blur-3xl" />
+          <div className="absolute bottom-1/4 -right-20 w-96 h-96 bg-primary-500/10 rounded-full blur-3xl" />
+        </div>
+      )}
 
       <div className={`relative mx-auto max-w-7xl px-6 ${large ? "py-40 md:py-52" : "py-28 md:py-36"}`}>
         <div className="max-w-3xl">

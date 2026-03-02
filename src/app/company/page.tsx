@@ -43,7 +43,7 @@ export default function CompanyPage() {
           />
           <div className="grid md:grid-cols-2 gap-8 mt-12">
             {content.team.members.map((member, i) => (
-              <TeamCard key={i} name={member.name} title={member.title} bio={member.bio} />
+              <TeamCard key={i} name={member.name} title={member.title} bio={member.bio} image={member.image || undefined} />
             ))}
           </div>
         </div>
@@ -59,7 +59,7 @@ export default function CompanyPage() {
           />
           <div className="grid md:grid-cols-3 gap-8 mt-12">
             {content.board.members.map((member, i) => (
-              <TeamCard key={i} name={member.name} title={member.title} bio={member.bio} />
+              <TeamCard key={i} name={member.name} title={member.title} bio={member.bio} image={member.image || undefined} />
             ))}
           </div>
         </div>

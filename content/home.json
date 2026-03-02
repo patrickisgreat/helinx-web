@@ -2,25 +2,29 @@
   "hero": {
     "headline": "Engineering Nature's Blueprint for Tomorrow",
     "subtitle": "We harness the power of synthetic biology to develop sustainable, bio-based solutions that address the world's most urgent challenges.",
-    "cta": { "label": "Discover Our Technology", "href": "/technology" }
+    "cta": { "label": "Discover Our Technology", "href": "/technology" },
+    "image": "/home_hero.png"
   },
   "about": {
     "label": "Who We Are",
     "heading": "Biology as a Force for Change",
     "text": "At Helinx, we believe the answers to our greatest challenges already exist in nature. Our world-class team of scientists and engineers unlocks biological processes to create next-generation ingredients and materials — replacing harmful synthetics with elegant, sustainable alternatives.",
-    "cta": { "label": "Learn About Us", "href": "/company" }
+    "cta": { "label": "Learn About Us", "href": "/company" },
+    "image": ""
   },
   "technology": {
     "label": "What We Do",
     "heading": "Precision Biology at Scale",
     "text": "Our proprietary platforms — spanning cell factory engineering, precision fermentation, and advanced enzyme technology — enable us to produce high-performance bio-based ingredients at commercial scale. We transform what nature provides into what industry demands.",
-    "cta": { "label": "Explore Our Platform", "href": "/technology" }
+    "cta": { "label": "Explore Our Platform", "href": "/technology" },
+    "image": ""
   },
   "impact": {
     "label": "Our Mission",
     "heading": "Building a Regenerative Future",
     "text": "Every product we develop is measured against its impact on the planet. From reducing carbon emissions to eliminating hazardous chemicals from supply chains, our work is driven by the belief that industrial progress and environmental stewardship are not at odds — they're inseparable.",
-    "cta": { "label": "Our Responsibility", "href": "/responsibility" }
+    "cta": { "label": "Our Responsibility", "href": "/responsibility" },
+    "image": ""
   },
   "cta": {
     "heading": "Ready to Collaborate?",

@@ -1,8 +1,27 @@
+import Image from "next/image";
 import Link from "next/link";
 import Hero from "@/components/Hero";
 import SectionHeading from "@/components/SectionHeading";
 import CTABanner from "@/components/CTABanner";
 import content from "../../content/home.json";
+
+function SectionImage({ image, alt }: { image?: string; alt: string }) {
+  if (image) {
+    return (
+      <div className="aspect-[4/3] rounded-2xl overflow-hidden relative">
+        <Image src={image} alt={alt} fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" />
+      </div>
+    );
+  }
+  return (
+    <div className="aspect-[4/3] rounded-2xl bg-gradient-to-br from-primary-100 to-accent-100 flex items-center justify-center">
+      <div className="text-center p-8">
+        <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-gradient-to-br from-primary-400 to-accent-500 opacity-60" />
+        <p className="text-sm text-gray-400">Image placeholder</p>
+      </div>
+    </div>
+  );
+}
 
 export default function Home() {
   return (
@@ -11,6 +30,7 @@ export default function Home() {
         headline={content.hero.headline}
         subtitle={content.hero.subtitle}
         cta={content.hero.cta}
+        image={content.hero.image}
         large
       />
 
@@ -33,12 +53,7 @@ export default function Home() {
                 </Link>
               </div>
             </div>
-            <div className="aspect-[4/3] rounded-2xl bg-gradient-to-br from-primary-100 to-accent-100 flex items-center justify-center">
-              <div className="text-center p-8">
-                <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-gradient-to-br from-primary-400 to-accent-500 opacity-60" />
-                <p className="text-sm text-gray-400">Image placeholder</p>
-              </div>
-            </div>
+            <SectionImage image={content.about.image} alt={content.about.heading} />
           </div>
         </div>
       </section>
@@ -47,11 +62,8 @@ export default function Home() {
       <section className="py-24 bg-gray-50">
         <div className="mx-auto max-w-7xl px-6">
           <div className="grid md:grid-cols-2 gap-16 items-center">
-            <div className="order-2 md:order-1 aspect-[4/3] rounded-2xl bg-gradient-to-br from-accent-100 to-primary-100 flex items-center justify-center">
-              <div className="text-center p-8">
-                <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-gradient-to-br from-accent-400 to-primary-500 opacity-60" />
-                <p className="text-sm text-gray-400">Image placeholder</p>
-              </div>
+            <div className="order-2 md:order-1">
+              <SectionImage image={content.technology.image} alt={content.technology.heading} />
             </div>
             <div className="order-1 md:order-2">
               <SectionHeading label={content.technology.label} heading={content.technology.heading} />
@@ -91,12 +103,7 @@ export default function Home() {
                 </Link>
               </div>
             </div>
-            <div className="aspect-[4/3] rounded-2xl bg-gradient-to-br from-primary-100 to-accent-100 flex items-center justify-center">
-              <div className="text-center p-8">
-                <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-gradient-to-br from-primary-400 to-accent-500 opacity-60" />
-                <p className="text-sm text-gray-400">Image placeholder</p>
-              </div>
-            </div>
+            <SectionImage image={content.impact.image} alt={content.impact.heading} />
           </div>
         </div>
       </section>

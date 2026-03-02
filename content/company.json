@@ -18,16 +18,19 @@
       {
         "name": "Dr. James Johansen",
         "title": "CEO & Co-Founder",
+        "image": "",
         "bio": "A world-recognized biochemist specializing in bioengineering microorganisms for high-value molecule production. Previously led multidisciplinary research programs at a leading university, successfully transitioning bio-based innovations from lab to commercialization. Awarded multiple honors for exceptional achievement in research translation and industry collaboration."
       },
       {
         "name": "Maria Satiya",
         "title": "Chief Financial Officer",
+        "image": "",
         "bio": "An experienced executive finance professional with deep roots in the biotech sector. Maria brings years of CFO-level experience across multiple biotech companies, complemented by senior roles in investment banking and capital markets operations."
       },
       {
         "name": "Patrick Bennett",
         "title": "Co Founder",
+        "image": "",
         "bio": "A recognized biotech engineer specializing in automation and machine learning"
       }
     ]
@@ -39,16 +42,19 @@
       {
         "name": "Dr. Eric Lunderman",
         "title": "Chairman of the Board",
+        "image": "",
         "bio": "A founding partner of a leading Nordic life science venture fund with extensive experience in early-stage company creation, having led the formation and funding of over 20 companies across Europe."
       },
       {
         "name": "Anna Baxter",
         "title": "Independent Board Member",
+        "image": "",
         "bio": "An international legal expert with 20 years of experience in the life science industry, specializing in R&D agreements, strategic licensing transactions, and complex research collaborations."
       },
       {
         "name": "Michael Hendricks",
         "title": "Investor Representative",
+        "image": "",
         "bio": "A seasoned venture capitalist with deep experience in cleantech and deeptech investing, having completed over 40 transactions and successfully developed early-stage businesses into thriving companies."
       }
     ]
