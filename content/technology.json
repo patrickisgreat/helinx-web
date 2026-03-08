@@ -8,6 +8,12 @@
     "heading": "The Imperative for Change",
     "text": "For decades, industrial chemistry has delivered remarkable innovation — but at a steep environmental cost. By studying nature's own molecular machinery and channeling its extraordinary capabilities, we unlock new possibilities for producing high-value ingredients sustainably. This is the foundation of everything we do at Helinx."
   },
+  "peptides": {
+    "label": "Peptide Science",
+    "heading": "Peptide Research & Synthesis",
+    "text": "At the forefront of our research pipeline is a growing focus on bioactive peptides — short chains of amino acids with remarkable functional properties. We apply cutting-edge computational design and biocatalytic synthesis methods to discover, engineer, and produce peptides with precision. From antimicrobial and therapeutic candidates to functional food and cosmetic ingredients, our peptide programs bridge fundamental biology with real-world applications.",
+    "details": "Our synthesis capabilities combine solid-phase peptide synthesis with biosynthetic routes, enabling us to scale from discovery through pilot production while maintaining the purity and structural fidelity that downstream applications demand."
+  },
   "platforms": {
     "heading": "Our Core Platforms",
     "description": "Two interconnected technologies form the backbone of our scientific capability: cell factory engineering with precision fermentation, and enzymatic enhancement. Together, they enable us to bring natural ingredients to market at a scale previously unattainable.",

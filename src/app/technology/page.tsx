@@ -28,8 +28,26 @@ export default function TechnologyPage() {
         </div>
       </section>
 
-      {/* Platforms */}
+      {/* Peptides */}
       <section className="py-24 bg-gray-50">
+        <div className="mx-auto max-w-7xl px-6">
+          <div className="grid md:grid-cols-2 gap-12 items-start bg-white rounded-2xl border border-gray-100 p-8 md:p-12">
+            <div>
+              <p className="text-sm font-semibold uppercase tracking-widest text-accent-600 mb-3">
+                {content.peptides.label}
+              </p>
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">{content.peptides.heading}</h2>
+              <p className="text-gray-600 leading-relaxed">{content.peptides.text}</p>
+            </div>
+            <div className="bg-primary-50 rounded-xl p-8">
+              <p className="text-gray-700 leading-relaxed">{content.peptides.details}</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Platforms */}
+      <section className="py-24 bg-white">
         <div className="mx-auto max-w-7xl px-6">
           <SectionHeading
             heading={content.platforms.heading}
@@ -61,7 +79,7 @@ export default function TechnologyPage() {
       </section>
 
       {/* Impact CTA */}
-      <section className="py-24 bg-white">
+      <section className="py-24 bg-gray-50">
         <div className="mx-auto max-w-7xl px-6 text-center">
           <SectionHeading heading={content.impact.heading} subtitle={content.impact.text} centered />
           <a

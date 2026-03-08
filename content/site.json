@@ -1,5 +1,6 @@
 {
   "companyName": "Helinx",
+  "logo": "/logo.png",
   "tagline": "Reimagining biology for a regenerative future",
   "nav": [
     { "label": "Technology", "href": "/technology" },

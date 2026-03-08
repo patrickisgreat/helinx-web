@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
@@ -12,8 +13,11 @@ export default function Navbar() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
       <nav className="mx-auto max-w-7xl flex items-center justify-between px-6 py-4">
-        <Link href="/" className="text-2xl font-bold tracking-tight text-primary-700">
-          {site.companyName}
+        <Link href="/" className="flex items-center gap-3">
+          {site.logo && (
+            <Image src={site.logo} alt="" width={72} height={72} className="h-16 w-16 object-contain" priority />
+          )}
+          <span className="text-3xl font-bold tracking-tight text-primary-700">{site.companyName}</span>
         </Link>
 
         {/* Desktop nav */}
